@@ -11,3 +11,53 @@
     --rose800: hsl(332, 51%, 32%);
     --rose50: hsl(330, 100%, 98%);
 }
+
+/* ESTILOS GENERALES */
+
+body{
+    background-color: var(--White);
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
+
+.container, .encabezado{
+    padding: 30px;
+}
+
+h1, h2{
+    font-family: 'Young Serif';
+}
+
+h2{
+    color: var(--brown800);
+}
+
+
+
+/* HEADER*/
+
+.header{
+    width: 100%;
+    
+}
+
+/* ELEMENTOS DEL HEADER*/
+
+.header > img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.encabezado > h1 span {
+    display: block;
+  }
+
+.encabezado > p{
+    font-size: 16px;
+  }
