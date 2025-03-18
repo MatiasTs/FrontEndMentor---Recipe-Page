@@ -33,6 +33,12 @@ h2{
     color: var(--brown800);
 }
 
+li {
+    margin-bottom: 10px;
+    list-style-position: outside;
+    margin-left: -10px;
+    padding-left: 20px;
+  }
 
 
 /* HEADER*/
@@ -61,3 +67,26 @@ h2{
 .encabezado > p{
     font-size: 16px;
   }
+
+
+  /* Preparation */
+
+  .preparation{
+    
+    padding: 10px 20px;
+    background-color: var(--rose50);
+    border-radius: 15px;
+}
+
+.preparation > h3{
+      color: var(--rose800);
+  }
+
+.preparation li::marker{
+    color: var(--Rose-800);
+}
+
+.sub{
+    color: var(--stone900);
+    font-weight: 600;
+}
