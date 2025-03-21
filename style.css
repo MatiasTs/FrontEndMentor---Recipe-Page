@@ -91,3 +91,29 @@ li {
     color: var(--stone900);
     font-weight: 800;
 }
+
+
+/* TABLA */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+.table td {
+    padding: 8px;
+    padding-left: 30px;
+  }
+
+  .table td:nth-child(1) {
+    color: var(--stone900);
+  }
+
+.table td:nth-child(2) {
+    color: var(--brown800);
+    font-weight: 600;
+  }
+
+  table tr:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
