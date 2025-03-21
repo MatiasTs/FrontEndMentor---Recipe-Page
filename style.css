@@ -40,6 +40,10 @@ li {
     padding-left: 20px;
   }
 
+  li::marker{
+    color: var(--brown800);
+    font-weight: bold;
+}
 
 /* HEADER*/
 
@@ -53,9 +57,6 @@ li {
 .header > img{
     width: 100%;
 }
-
-
-
 
 
 
@@ -83,10 +84,10 @@ li {
   }
 
 .preparation li::marker{
-    color: var(--Rose-800);
+    color: var(--rose800);
 }
 
 .sub{
     color: var(--stone900);
-    font-weight: 600;
+    font-weight: 800;
 }
