@@ -1,5 +1,5 @@
 :root{
-    --White: hsl(0, 0%, 100%);
+    --white: hsl(0, 0%, 100%);
 
     --stone100: hsl(30, 54%, 90%);
     --stone150: hsl(30, 18%, 87%);
@@ -15,14 +15,33 @@
 /* ESTILOS GENERALES */
 
 body{
-    background-color: var(--White);
+    
     padding: 0;
     font-family: 'Outfit', sans-serif;
     margin: 0;
 }
 
-.container, .encabezado{
+main{
+ 
+  background-color: var(--stone100);
+  
+  
+}
+
+.container{
+  background-color: var(--white);
+}
+
+.cuerpo{
     padding: 30px;
+}
+
+.encabezado{
+  margin: 20px;
+}
+
+h1{
+  font-size: 2rem;
 }
 
 h1, h2{
@@ -117,3 +136,27 @@ li {
   table tr:not(:last-child) {
     border-bottom: 1px solid #ccc;
   }
+
+@media (min-width: 810px){
+
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .container{
+    max-width: 750px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 70px 0px;
+  }
+
+  .encabezado > h1 span {
+    display: inline;
+  }
+
+  .header >img{
+    border-radius: 10px;
+  }
+}
